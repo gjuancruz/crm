@@ -160,4 +160,8 @@ export const routesConfig = [
     path: '/offer/update/:id',
     component: 'Offer/OfferUpdate',
   },
+  {
+    path: '/trello',
+    component: 'Trello/Trello',
+  },
 ];

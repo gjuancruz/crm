@@ -28,7 +28,7 @@ export default function CustomerPreviewCard({
               }}
             >
               <Progress type="dashboard" percent={newCustomer} width={148} />
-              <p>New Customer this Month</p>
+              <p>Monthly New Customer Percentage</p>
               <Divider />
               <Statistic
                 title="Active Customer"

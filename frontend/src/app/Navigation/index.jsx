@@ -31,6 +31,8 @@ const SIDEBAR_MENU = [
   { key: '/payment/invoice', icon: <CreditCardOutlined />, title: 'Payment Invoice' },
   { key: '/employee', icon: <UserOutlined />, title: 'Employee' },
   { key: '/admin', icon: <TeamOutlined />, title: 'Admin' },
+  { key: '/trello', icon: <TeamOutlined />, title: 'Trello' },
+
 ];
 
 const SETTINGS_SUBMENU = [
@@ -93,15 +95,15 @@ function Sidebar({ collapsible }) {
         className="navigation"
       >
         <div className="logo" onClick={() => history.push('/')} style={{ cursor: 'pointer' }}>
-          <img src={logoIcon} alt="Logo" style={{ height: '32px' }} />
+          {/* <img src={logoIcon} alt="Logo" style={{ height: '32px' }} /> */}
 
-          {!showLogoApp && (
+          {/* {!showLogoApp && (
             <img
               src={logoText}
               alt="Logo"
               style={{ marginTop: '3px', marginLeft: '10px', height: '29px' }}
             />
-          )}
+          )} */}
         </div>
         <Menu mode="inline" selectedKeys={[currentPath]}>
           {SIDEBAR_MENU.map((menuItem) => (
