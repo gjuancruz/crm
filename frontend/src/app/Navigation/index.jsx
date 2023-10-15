@@ -19,6 +19,7 @@ import {
   MenuOutlined,
   UserAddOutlined,
   FileOutlined,
+  ProjectOutlined,
 } from '@ant-design/icons';
 
 const SIDEBAR_MENU = [
@@ -31,7 +32,7 @@ const SIDEBAR_MENU = [
   { key: '/payment/invoice', icon: <CreditCardOutlined />, title: 'Payment Invoice' },
   { key: '/employee', icon: <UserOutlined />, title: 'Employee' },
   { key: '/admin', icon: <TeamOutlined />, title: 'Admin' },
-  { key: '/trello', icon: <TeamOutlined />, title: 'Trello' },
+  { key: '/trello', icon: <ProjectOutlined />, title: 'Trello' },
 
 ];
 

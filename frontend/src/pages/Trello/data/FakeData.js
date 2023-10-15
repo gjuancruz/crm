@@ -2,7 +2,7 @@ export const tasks = [
     {
       id: 1,
       col_id: 1,
-      name: "Remove unused tests",
+      name: "Remove unused anashe",
       priority_id: 1,
       following: true,
       assignees_ids: []

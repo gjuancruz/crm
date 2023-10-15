@@ -2,7 +2,7 @@
   {
     "settingCategory": "company_settings",
     "settingKey": "company_name",
-    "settingValue": "IDURAR",
+    "settingValue": "Swaylink",
     "valueType": "string",
     "isCoreSetting": true
   },
@@ -23,7 +23,7 @@
   {
     "settingCategory": "company_settings",
     "settingKey": "company_email",
-    "settingValue": "hello@idurarapp.com",
+    "settingValue": "juangalaz@swaylink.com",
     "valueType": "string",
     "isCoreSetting": true
   },
@@ -44,7 +44,7 @@
   {
     "settingCategory": "company_settings",
     "settingKey": "company_website",
-    "settingValue": "www.idurarapp.com",
+    "settingValue": "www.swaylink.net",
     "valueType": "string",
     "isCoreSetting": true
   },

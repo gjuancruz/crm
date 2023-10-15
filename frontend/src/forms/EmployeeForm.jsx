@@ -63,8 +63,9 @@ export default function EmployeeForm() {
         ]}
       >
         <Select>
-          <Select.Option value="men">Men</Select.Option>
-          <Select.Option value="women">Women</Select.Option>
+          <Select.Option value="male">Male</Select.Option>
+          <Select.Option value="female">Female</Select.Option>
+          <Select.Option value="other">Other</Select.Option>
         </Select>
       </Form.Item>
       <Form.Item
